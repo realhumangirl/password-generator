@@ -20,6 +20,7 @@ function getRandomString() {
 }
 
 function generatePassword() {
+    passwords = []
     for (let i = 0; i < passwordOption.length; i++) {
         getRandomString()
         let e = passwordOption[i]
