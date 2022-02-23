@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: #2B283A;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 42px;
+}
+
+p {
+    color: #6B7280;
+}
+
+.main {
+    width: 550px;
+    background: #ECFDF5;
+    padding: 20px;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+.divider {
+    border-top: 1px solid #D5D4D8;
+    margin-bottom: 10px;
+    width: 550px;
+}
+
+.generator-section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 380px;
+}
+
+.passwords-section {
+    padding-top: 20px;
+    display: inline-block;
+    width: 550px;
+}
+
+.password-row {
+    
+}
+
+.password {
+    text-align: center;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 230px;
+    border: 1px solid black;
+    display: inline-block;
+    background: #273549;
+    border-radius: 6px;
+    color: #5DEF92;
+}
+
+.green {
+    color: #10B981;
+}
+
+
+.fa-bolt {
+    left: 25%;
+    right: 25%;
+    top: 26%;
+    bottom: 25.94%;
+    color: white;
+    padding-right: 4px;
+}
+
+fa-ellipsis {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 44%;
+    bottom: 43.5%;
+    color: #3F516B;
+}
+
+.btn-green {
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 6px;
+    background: #10B981;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
