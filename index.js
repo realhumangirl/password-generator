@@ -11,20 +11,20 @@ function getRandomCharacter() {
     randomCharacter += characters[i]
 }
 
-function getRandomString() {
-    for (let i = 0; i < 15; i++) {
+function getRandomString(length) {
+    for (let i = 0; i < length; i++) {
         getRandomCharacter()
     }
     randomString += randomCharacter
-    passwords.push(randomString.slice(-15))
+    passwords.push(randomString.slice(-length))
 }
 
 function generatePassword() {
     passwords = []
+    let length = parseInt(document.getElementById("digits").value)
     for (let i = 0; i < passwordOption.length; i++) {
-        getRandomString()
+        getRandomString(length)
         let e = passwordOption[i]
         e.textContent = passwords[i]
     }
 }
-
