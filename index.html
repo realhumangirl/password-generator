@@ -11,8 +11,11 @@
             <div class="generator-section">
                 <h1>Generate a <span class="green">random password</span></h1>
                 <p>Never use an insecure password again.</p>
-                
-                <button class="btn-green" id="generate-password" onclick="generatePassword()"><i class="fa-solid fa-bolt"></i> Generate passwords</button>
+                <!-- <form> -->
+                    <p class="small">No. of characters:</p>
+                    <input id="digits" type="number" name="length"> 
+                    <button type="submit" class="btn-green" onclick="generatePassword()"><i class="fa-solid fa-bolt"></i> Generate passwords</button>
+                <!-- </form> -->
             </div>
             <hr class="divider"></hr>
             <div class="passwords-section" id="password-options">
