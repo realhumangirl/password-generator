@@ -18,6 +18,17 @@ p {
     color: #6B7280;
 }
 
+input {
+    border-radius: 6px;
+    border: 1px solid grey;
+    background: white;
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
 .main {
     width: 550px;
     background: #ECFDF5;
@@ -44,10 +55,6 @@ p {
     width: 550px;
 }
 
-.password-row {
-    
-}
-
 .password {
     text-align: center;
     padding: 10px;
@@ -66,6 +73,11 @@ p {
     color: #10B981;
 }
 
+.small {
+    font-size: 16px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 .fa-bolt {
     left: 25%;
@@ -87,7 +99,7 @@ fa-ellipsis {
 
 .btn-green {
     padding: 10px 15px 10px 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     border: none;
     border-radius: 6px;
     background: #10B981;
